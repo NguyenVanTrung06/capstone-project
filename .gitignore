@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Node dependencies and builds
+frontend/node_modules/
+frontend/dist/
+
+# MCP Server databases and study guides
+mcp_server/database.json
+mcp_server/study_guides/*.md
